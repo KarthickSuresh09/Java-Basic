@@ -15,4 +15,4 @@ total=total+1;
 }
 
 ////temprorary variable need to take empty
-/////temp=temp*k
+/////temp=temp+k
