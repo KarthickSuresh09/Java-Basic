@@ -1,0 +1,65 @@
+What is Collection?
+In Java, Collections are used to store, retrieve, manipulate, and communicate aggregate data.
+The Java Collection Framework provides a set of interfaces and classes to handle groups of objects efficiently.
+
+  
+🔰 1. Collection Framework Hierarchy
+At the top is the java.util.Collection interface, which is extended by:
+* List
+* Set
+* Queue
+Then there's Map, which is not a part of the Collection interface but is still part of the framework.
+
+  
+🔹 2. List Interface
+> Ordered collection
+> Allows duplicates
+> Index-based access
+
+Common Classes:
+* ArrayList – resizable array, fast for read
+* LinkedList – doubly linked list, fast for insert/delete
+* Vector – synchronized version of ArrayList
+* Stack – subclass of Vector (LIFO)
+
+
+
+🔹 3. Set Interface
+> Unordered
+> No duplicates
+
+Common Classes:
+* HashSet – uses hash table, fastest
+* LinkedHashSet – maintains insertion order
+* TreeSet – sorted order (uses TreeMap internally)
+
+
+
+🔹 4. Queue Interface
+> FIFO (First-In-First-Out)
+> Used for processing tasks
+
+Common Classes:
+* PriorityQueue – elements processed based on priority
+* ArrayDeque – double-ended queue
+
+
+🔹 5. Map Interface
+> Stores key-value pairs
+> No duplicate keys
+
+Common Classes:
+* HashMap – no order
+* LinkedHashMap – insertion order
+* TreeMap – sorted by keys
+* Hashtable – synchronized
+
+
+  🔍 Summary Table:
+
+| Interface | Implementation | Features                 |
+| --------- | -------------- | ------------------------ |
+| List      | ArrayList      | Ordered, duplicates      |
+| Set       | HashSet        | Unordered, no duplicates |
+| Queue     | LinkedList     | FIFO                     |
+| Map       | HashMap        | Key-value pairs          |
