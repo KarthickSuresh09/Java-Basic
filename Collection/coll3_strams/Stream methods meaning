@@ -1,0 +1,27 @@
+🔹 Intermediate Operations (returns a Stream)
+
+Method	    Meaning / Usage
+filter()	  Filters elements based on a condition
+map()	      Transforms elements
+flatMap()	  Flattens nested structures (like List of Lists)
+distinct()	Removes duplicates
+sorted()	  Sorts elements
+peek()	    Performs action on each element (used for debugging)
+limit()	    Limits number of elements
+skip()	    Skips first n elements
+
+
+
+🔹 Terminal Operations (ends the stream pipeline)
+Method	  Meaning / Usage
+forEach()	    Performs action for each element
+toArray()	    Converts stream to array
+collect()	    Collects elements to List, Set, Map, etc.
+reduce()	    Reduces stream to a single value
+count()	      Counts elements
+min() / max()	Gets min or max element (based on Comparator)
+anyMatch()	  Checks if any element matches condition
+allMatch()	  Checks if all elements match condition
+noneMatch()	  Checks if no element matches condition
+findFirst()	  Gets the first element (Optional)
+findAny()	    Gets any element (Optional)
